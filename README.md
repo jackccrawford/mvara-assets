@@ -18,7 +18,7 @@ This repository contains all public assets for mVara products, marketing, docume
 VS Code extension marketplace requires all images in README files to be served from public HTTPS URLs. When referencing assets in extension READMEs, use the raw GitHub URL format:
 
 ```
-https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/mvara-content/mvara-logo-white.png
+https://raw.githubusercontent.com/jackccrawford/mvara-assets/main/mvara-content/mvara-logo-white.png
 ```
 
 ### For Other mVara Products and Documentation
@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/mvara-conten
 The same raw GitHub URL format can be used to embed images in any documentation, websites, or other materials:
 
 ```
-https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/path/to/asset.png
+https://raw.githubusercontent.com/jackccrawford/mvara-assets/main/path/to/asset.png
 ```
 
 ## Contributing New Assets
