@@ -1,15 +1,14 @@
 # mVara Public Assets Repository
 
-This repository contains all public assets for mVara products, marketing, documentation, and extensions. It serves as a centralized location for publicly accessible resources while allowing other repositories with sensitive code to remain private.
+This repository contains all public assets for mVara products, marketing, documentation, and extensions. It serves as a centralized location for publicly accessible resources while maintaining brand consistency across all mVara properties and partnerships.
 
 ## Repository Structure
 
 ```
 /
-├── extensions/            # VS Code and other IDE extension assets
-│   └── logos/            # Logos specific to extensions
-├── marketing/            # Marketing materials and brand assets
-└── documentation/        # Images and resources for documentation
+├── mvara-content/        # Official mVara brand assets (logos, icons, etc.)
+├── other-content/        # Additional content and assets
+└── partner-content/      # Assets for partner integrations and co-marketing
 ```
 
 ## Usage Guidelines
@@ -19,7 +18,7 @@ This repository contains all public assets for mVara products, marketing, docume
 VS Code extension marketplace requires all images in README files to be served from public HTTPS URLs. When referencing assets in extension READMEs, use the raw GitHub URL format:
 
 ```
-https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/extensions/logos/mvara-logo-white.png
+https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/mvara-content/mvara-logo-white.png
 ```
 
 ### For Other mVara Products and Documentation
@@ -34,17 +33,27 @@ https://raw.githubusercontent.com/jackccrawford/mvara-assets/master/path/to/asse
 
 To add new assets to this repository:
 
-1. Place the asset in the appropriate directory based on its purpose
+1. Place the asset in the appropriate directory based on its purpose:
+   - `mvara-content/` - For official mVara branding assets
+   - `other-content/` - For supplementary assets
+   - `partner-content/` - For partner-related assets
 2. Commit and push to the repository
 3. Use the raw GitHub URL to reference the asset in your documentation or code
 
+## Brand Consistency
+
+This central repository helps maintain brand consistency by:
+- Providing a single source of truth for all mVara visual assets
+- Eliminating inconsistencies from multiple copies of the same assets
+- Ensuring all products reference the same versions of logos and brand elements
+
 ## Contents
 
-### Extension Assets
-- `extensions/logos/mvara-logo-white.png` - mVara logo on white background
+### mVara Content
+- `mvara-content/mvara-logo-white.png` - mVara logo on white background
 
-### Marketing Assets
-*(Add marketing assets here as they are created)*
+### Other Content
+*(Add other content here as it is created)*
 
-### Documentation Assets
-*(Add documentation assets here as they are created)*
+### Partner Content
+*(Add partner content here as it is created)*
